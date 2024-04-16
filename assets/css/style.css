@@ -1,0 +1,66 @@
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+aside{
+  width: 25%;
+  border-right: 1px solid #E8EBE4;
+}
+.chat-maria, .chats{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 1px solid #E8EBE4;
+    border-bottom: 1px solid #E8EBE4;
+}
+.info-maria{
+    flex-direction: column;
+    padding-left: .5em;
+    h3{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    h4{
+        margin-top: 0;
+        font-weight: 100;
+    }
+}
+.iconos{
+    width: 50%;
+}
+.img-aside{
+    border-radius: 50%;
+    height: 3rem;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 3rem;
+}
+.button-chat{
+  padding: 0.8rem 2.5rem;
+  border-radius: none;
+  border: none;
+  background-color: #A491D2;
+  color: #fff;
+}
+.section-mano{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 75%;
+  align-items: center;
+  h1{
+    margin-bottom: .8rem;
+  }
+  p{
+    margin:0 auto;
+
+  }
+}
+.imagen-manos{
+    align-items: center;
+    height: 200px;
+    max-width: 200px;
+}
