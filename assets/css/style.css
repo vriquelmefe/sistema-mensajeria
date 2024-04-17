@@ -1,45 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 .hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #E8EBE4;
+}
+menu{
+  width: 20%;
+  background-color: #fff;
+  height: 100vh;
+  border-right: 1px solid #BEC1BB;
+}
+.chats{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-}
-aside{
-  width: 25%;
-  border-right: 1px solid #E8EBE4;
-}
-.chat-maria, .chats{
-    display: flex;
+    border-top: .8px solid #BEC1BB;
+    border-bottom: .8px solid #BEC1BB;
+    border-left: 0;
+    padding: .7rem 1.2rem;
     justify-content: start;
-    align-items: center;
-    border-top: 1px solid #E8EBE4;
-    border-bottom: 1px solid #E8EBE4;
+  h4{
+  margin-top: 0;
+  font-weight: 300;
+  font-size: .7em;
+  }
 }
-.info-maria{
-    flex-direction: column;
-    padding-left: .5em;
-    h3{
-        font-weight: bold;
-        margin-bottom: 0;
-    }
-    h4{
-        margin-top: 0;
-        font-weight: 100;
-    }
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem; 
+  h3{
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: .9em;
+  }
 }
-.iconos{
-    width: 50%;
+.imagen-info{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  gap:1rem;
 }
 .img-aside{
     border-radius: 50%;
-    height: 3rem;
+    height: 2.5rem;
 }
+.img-aside-maria{
+  height: 2rem;
+  border-radius: 50%;
+}
+.info-maria{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: .8px solid #BEC1BB;
+  padding-bottom: .5rem;
+  margin-top: .5rem;
+    h3{
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: .9em;
+    }
+    p{
+        margin-top: 0;
+        font-weight: 300;
+        font-size: .7em;
+        color: #BEC1BB;
+    }
+}
+
+.iconos{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #828485;
+}
+
 .button{
   display: flex;
   justify-content: space-around;
-  padding: 2rem 3rem;
+  padding: 2rem 0rem;
 }
 .button-chat{
-  padding: 0.8rem 2.5rem;
+  padding: 0.7rem 3rem;
   border-radius: none;
   border: none;
   background-color: #A491D2;
@@ -48,14 +96,20 @@ aside{
 .section-mano{
   display: flex;
   flex-direction: column;
-  height: 500px;
-  width: 75%;
+  height: 100vh;
+  width: 80%;
   align-items: center;
+  justify-content: center;
+  border-left: .8px solid #BEC1BB;
+
   h1{
-    margin-bottom: .8rem;
+    margin: .8rem;
+    font-weight: 400;
+    font-size: 2.5em;
   }
   p{
     margin:0 auto;
+    font-weight: 300;
 
   }
 }
