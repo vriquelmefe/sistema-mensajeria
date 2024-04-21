@@ -29,6 +29,9 @@ menu{
   font-weight: 300;
   font-size: .7em;
   }
+  &:hover{
+    background-color: #A491D2;
+  }
 }
 .info{
   display: flex;
@@ -90,8 +93,11 @@ menu{
   padding: 0.7rem 3rem;
   border-radius: none;
   border: none;
-  background-color: #A491D2;
+  background-color:#A491D2 ;
   color: #fff;
+  &:hover{
+    background-color:#CDC3E6;
+  }
 }
 .section-mano{
   display: flex;
